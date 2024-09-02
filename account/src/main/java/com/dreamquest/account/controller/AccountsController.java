@@ -6,6 +6,7 @@ import com.dreamquest.account.dto.CustomerDto;
 import com.dreamquest.account.dto.ResponseDto;
 import com.dreamquest.account.service.AccountsServiceImpl;
 import jakarta.validation.Valid;
+import jakarta.validation.constraints.Pattern;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -21,21 +22,21 @@ public class AccountsController
     AccountsServiceImpl accountsService;
 
     @PostMapping("/create")
-    public ResponseEntity<ResponseDto> createAccount(@RequestBody CustomerDto customerDto)
+    public ResponseEntity<ResponseDto> createAccount(@Valid @RequestBody CustomerDto customerDto)
     {
         accountsService.createAccount(customerDto);
         return new ResponseEntity<>(new ResponseDto(AccountsConstants.STATUS_201, AccountsConstants.MESSAGE_201), HttpStatus.CREATED);
     }
 
     @GetMapping("/fetch")
-    public ResponseEntity<CustomerDto> getAccountDetails(@RequestParam String mobileNumber)
+    public ResponseEntity<CustomerDto> getAccountDetails(@Valid  @Pattern(regexp="(^$|[0-9]{10})",message = "Mobile number must be 10 digits") @RequestParam String mobileNumber)
     {
         CustomerDto customerDto = accountsService.fetchAccount(mobileNumber);
         return new ResponseEntity<>(customerDto, HttpStatus.OK);
     }
 
     @PutMapping("/update")
-    public ResponseEntity<ResponseDto> updateAccountDetails(@RequestBody CustomerDto customerDto) {
+    public ResponseEntity<ResponseDto> updateAccountDetails(@Valid @RequestBody CustomerDto customerDto) {
         boolean isUpdated = accountsService.updateAccount(customerDto);
         if(isUpdated) {
             return ResponseEntity
@@ -49,7 +50,7 @@ public class AccountsController
     }
 
     @DeleteMapping("/delete")
-    public ResponseEntity<ResponseDto> deleteAccountDetails(@RequestParam String mobileNumber) {
+    public ResponseEntity<ResponseDto> deleteAccountDetails( @Valid  @Pattern(regexp="(^$|[0-9]{10})",message = "Mobile number must be 10 digits") @RequestParam String mobileNumber) {
         boolean isUpdated = accountsService.deleteAccount(mobileNumber);
         if(isUpdated) {
             return ResponseEntity
