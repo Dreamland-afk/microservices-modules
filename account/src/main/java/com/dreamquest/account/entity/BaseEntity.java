@@ -15,20 +15,19 @@ import java.time.LocalDateTime;
 @MappedSuperclass
 @Data
 @EntityListeners(AuditingEntityListener.class)
-
 public class BaseEntity {
 
     @CreatedDate
     @Column(updatable = false)
     private LocalDateTime createdAt;
 
-//    @CreatedBy
+    @CreatedBy
     private String createdBy;
 
     @LastModifiedDate
     @Column(insertable = false)
     private LocalDateTime updatedAt;
 
-//    @LastModifiedBy
+    @LastModifiedBy
     private String updatedBy;
 }
