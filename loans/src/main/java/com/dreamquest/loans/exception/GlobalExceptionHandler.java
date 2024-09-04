@@ -1,6 +1,6 @@
 package com.dreamquest.loans.exception;
 
-import com.dreamquest.cards.dto.ErrorResponseDto;
+import com.dreamquest.loans.dto.ErrorResponseDto;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
@@ -53,8 +53,8 @@ public class GlobalExceptionHandler  extends ResponseEntityExceptionHandler {
         return new ResponseEntity<>(errorResponseDto, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
-    @ExceptionHandler(CardsAlreadyExistsException.class)
-    ResponseEntity<ErrorResponseDto> handleCustomerAlreadyExists (CardsAlreadyExistsException exception , WebRequest webRequest)
+    @ExceptionHandler(LoansAlreadyExistsException.class)
+    ResponseEntity<ErrorResponseDto> handleCustomerAlreadyExists (LoansAlreadyExistsException exception , WebRequest webRequest)
     {
 
         ErrorResponseDto errorResponseDto = new ErrorResponseDto(
