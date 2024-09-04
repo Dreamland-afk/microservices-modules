@@ -29,5 +29,6 @@ public class BaseEntity {
     private LocalDateTime updatedAt;
 
     @LastModifiedBy
+    @Column(insertable = false)
     private String updatedBy;
 }

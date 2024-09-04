@@ -47,7 +47,7 @@ public class GlobalExceptionHandler  extends ResponseEntityExceptionHandler {
                 LocalDateTime.now()
         );
 
-        return new ResponseEntity<>(errorResponseDto, HttpStatus.BAD_REQUEST);
+        return new ResponseEntity<>(errorResponseDto, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
     @ExceptionHandler(CardsAlreadyExistsException.class)

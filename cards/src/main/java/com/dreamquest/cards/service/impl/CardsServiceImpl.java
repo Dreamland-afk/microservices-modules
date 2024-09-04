@@ -1,14 +1,18 @@
 package com.dreamquest.cards.service.impl;
 
+import ch.qos.logback.core.CoreConstants;
 import com.dreamquest.cards.Constants.CardsConstants;
 import com.dreamquest.cards.dto.CardsDto;
 import com.dreamquest.cards.entity.Cards;
 import com.dreamquest.cards.exception.CardsAlreadyExistsException;
+import com.dreamquest.cards.exception.ResourceNotFoundException;
+import com.dreamquest.cards.mapper.CardsMapper;
 import com.dreamquest.cards.repository.CardsRepository;
 import com.dreamquest.cards.service.ICardsService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.Optional;
 import java.util.Random;
 
 @Service
@@ -24,10 +28,12 @@ public class CardsServiceImpl implements ICardsService {
     @Override
     public void createCard(String mobileNumber) {
 
-        Cards cards = cardsRepository.findByMobileNumber(mobileNumber).orElseThrow(
 
-                () -> new CardsAlreadyExistsException("Card already registered with given mobileNumber " + mobileNumber)
-        );
+
+        Optional<Cards> optionalCards= cardsRepository.findByMobileNumber(mobileNumber);
+        if(optionalCards.isPresent()){
+            throw new CardsAlreadyExistsException("Card already registered with given mobileNumber "+mobileNumber);
+        }
 
         cardsRepository.save(createNewCards(mobileNumber));
     }
@@ -51,7 +57,15 @@ public class CardsServiceImpl implements ICardsService {
      */
     @Override
     public CardsDto fetchCard(String mobileNumber) {
-        return null;
+
+        Cards cards = cardsRepository.findByMobileNumber(mobileNumber).orElseThrow(
+
+                () -> new ResourceNotFoundException("Card", "Mobile Number", mobileNumber)
+
+
+        );
+
+        return CardsMapper.mapToCardsDto(cards,new CardsDto());
     }
 
     /**
@@ -60,7 +74,22 @@ public class CardsServiceImpl implements ICardsService {
      */
     @Override
     public boolean updateCard(CardsDto cardsDto) {
-        return false;
+
+        boolean isUpdated = false;
+
+
+        Cards cards = cardsRepository.findByCardNumber(cardsDto.getCardNumber()).orElseThrow(
+                () -> new ResourceNotFoundException("Card", "Card Number", cardsDto.getCardNumber())
+        );
+
+        if(cards != null)
+        {
+            cardsRepository.save(CardsMapper.mapToCards(cardsDto, cards));
+            isUpdated = true;
+        }
+
+
+        return isUpdated;
     }
 
     /**
@@ -69,6 +98,14 @@ public class CardsServiceImpl implements ICardsService {
      */
     @Override
     public boolean deleteCard(String mobileNumber) {
-        return false;
+
+        Cards cards = cardsRepository.findByMobileNumber(mobileNumber).orElseThrow(
+
+                () -> new ResourceNotFoundException("Card", "Mobile Number", mobileNumber)
+
+
+        );
+        cardsRepository.deleteById(cards.getCardID());
+        return true;
     }
 }
