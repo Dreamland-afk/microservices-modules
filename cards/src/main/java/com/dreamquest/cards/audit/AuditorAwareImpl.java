@@ -1,4 +1,4 @@
-package com.dreamquest.account.audit;
+package com.dreamquest.cards.audit;
 
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.stereotype.Component;
@@ -11,6 +11,6 @@ public class AuditorAwareImpl implements AuditorAware<String> {
 
     @Override
     public Optional<String> getCurrentAuditor() {
-        return Optional.of("Accounts_Microservice");
+        return Optional.of("Cards_Microservice");
     }
 }
