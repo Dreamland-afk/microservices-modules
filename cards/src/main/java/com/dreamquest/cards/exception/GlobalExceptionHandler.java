@@ -10,6 +10,7 @@ import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
@@ -36,9 +37,11 @@ public class GlobalExceptionHandler  extends ResponseEntityExceptionHandler {
     }
 
 
-    @ExceptionHandler(Exception.class)
+    @ExceptionHandler(value = { Exception.class })
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
     ResponseEntity<ErrorResponseDto> handleGlobalExceptions (Exception exception , WebRequest webRequest)
     {
+        System.out.println("Runtime Exception");
 
         ErrorResponseDto errorResponseDto = new ErrorResponseDto(
                 webRequest.getDescription(false).replace("uri=", ""),

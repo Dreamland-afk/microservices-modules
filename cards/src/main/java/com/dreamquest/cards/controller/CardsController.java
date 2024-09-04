@@ -55,7 +55,7 @@ public class CardsController {
     }
     )
     @PostMapping("/create")
-    public ResponseEntity<ResponseDto> createCard(@RequestParam  @Pattern(regexp="(^$|[0-9]{10})",message = "Mobile number must be 10 digits") String mobileNumber)
+    public ResponseEntity<ResponseDto> createCard(@Valid @RequestParam  @Pattern(regexp="(^$|[0-9]{10})",message = "Mobile number must be 10 digits") String mobileNumber)
     {
         cardsService.createCard(mobileNumber);
         return ResponseEntity.ok(new ResponseDto(CardsConstants.STATUS_201,CardsConstants.MESSAGE_201));
