@@ -1,6 +1,7 @@
 package com.dreamquest.cards.controller;
 
 import com.dreamquest.cards.Constants.CardsConstants;
+import com.dreamquest.cards.dto.AccountContactInfoDto;
 import com.dreamquest.cards.dto.CardsDto;
 import com.dreamquest.cards.dto.ErrorResponseDto;
 import com.dreamquest.cards.dto.ResponseDto;
@@ -14,6 +15,9 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Pattern;
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
@@ -29,12 +33,22 @@ import org.springframework.web.bind.annotation.*;
 )
 @RestController
 @RequestMapping("/api")
-@AllArgsConstructor
+
 @Validated
 public class CardsController {
 
+    @Autowired
+    AccountContactInfoDto accountContactInfoDto;
 
+    @Autowired
     CardsServiceImpl cardsService;
+
+    @Autowired
+    Environment environment;
+
+
+    @Value("${build.version}")
+    private String buildVersion;
 
     @Operation(
             summary = "Create Card REST API",
@@ -148,6 +162,77 @@ public class CardsController {
             return ResponseEntity.ok(new ResponseDto(CardsConstants.STATUS_200,CardsConstants.MESSAGE_200));
 
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body(new ResponseDto(CardsConstants.STATUS_417,CardsConstants.MESSAGE_417_DELETE));
+    }
+
+    @Operation(
+            summary = "Fetch Account microservice version REST API",
+            description = "REST API to fetch Account microservice version"
+    )
+    @ApiResponses({
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "HTTP Status OK"
+            ),
+            @ApiResponse(
+                    responseCode = "500",
+                    description = "HTTP Status Internal Server Error",
+                    content = @Content(
+                            schema = @Schema(implementation = ErrorResponseDto.class)
+                    )
+            )
+    }
+    )
+    @GetMapping("/build-info")
+    public ResponseEntity<String> getbuildInfo() {
+
+        return ResponseEntity.ok(buildVersion);
+    }
+
+    @Operation(
+            summary = "Fetch Java Home using REST API",
+            description = "REST API to fetch Java Home using REST API"
+    )
+    @ApiResponses({
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "HTTP Status OK"
+            ),
+            @ApiResponse(
+                    responseCode = "500",
+                    description = "HTTP Status Internal Server Error",
+                    content = @Content(
+                            schema = @Schema(implementation = ErrorResponseDto.class)
+                    )
+            )
+    }
+    )
+    @GetMapping("/java-version")
+    public ResponseEntity<String> getJavaVersion() {
+        return ResponseEntity.ok(environment.getProperty("JAVA_HOME"));
+    }
+
+    @Operation(
+            summary = "Fetch Contact Info using REST API",
+            description = "REST API to fetch Contact Info "
+    )
+    @ApiResponses({
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "HTTP Status OK"
+            ),
+            @ApiResponse(
+                    responseCode = "500",
+                    description = "HTTP Status Internal Server Error",
+                    content = @Content(
+                            schema = @Schema(implementation = ErrorResponseDto.class)
+                    )
+            )
+    }
+    )
+    @GetMapping("/contact-info")
+    public ResponseEntity<AccountContactInfoDto> getContactInfo() {
+
+        return ResponseEntity.ok(accountContactInfoDto);
     }
 
 }

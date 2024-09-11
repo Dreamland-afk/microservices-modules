@@ -1,0 +1,13 @@
+
+build:
+  version: "1.0"
+
+
+accounts:
+  message: "Welcome to DreamBank accounts related QA APIs"
+  contactDetails:
+    name: "Swapnadeep Mondal - Quality Assurance"
+    email: "swapnadeep@dreambank.com"
+  onCallSupport:
+    - "(+91) 2222222222"
+    - "(+91) 2222222222"
