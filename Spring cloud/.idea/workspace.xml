@@ -4,110 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f017b2e9-dccf-4ab1-bff6-abdf8fe679e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Spring cloud.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/AccountApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/Constants/AccountsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/audit/AuditorAwareImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/controller/AccountsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/dto/AccountContactInfoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/dto/AccountContactInfoDtoV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/dto/AccountsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/dto/CustomerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/dto/ErrorResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/dto/ResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/entity/Accounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/exception/CustomerAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/mapper/AccountsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/mapper/CustomerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/repository/AccountsRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/repository/CustomerRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/AccountsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/IAccountsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/resources/application-qa.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/test/java/com/dreamquest/account/AccountApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/dreamquest/cards/CardsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/dreamquest/cards/Constants/CardsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/dreamquest/cards/audit/AuditorAwareImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/dreamquest/cards/controller/CardsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/dreamquest/cards/dto/AccountContactInfoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/dreamquest/cards/dto/CardsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/dreamquest/cards/dto/ErrorResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/dreamquest/cards/dto/ResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/dreamquest/cards/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/dreamquest/cards/entity/Cards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/dreamquest/cards/exception/CardsAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/dreamquest/cards/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/dreamquest/cards/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/dreamquest/cards/mapper/CardsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/dreamquest/cards/repository/CardsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/dreamquest/cards/service/ICardsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/dreamquest/cards/service/impl/CardsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/resources/application-qa.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/test/java/com/dreamquest/cards/CardsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/java/com/dreamquest/configserver/ConfigserverApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/test/java/com/dreamquest/configserver/ConfigserverApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/Constants/LoansConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/LoansApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/audit/AuditorAwareImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/controller/LoansController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/dto/AccountContactInfoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/dto/ErrorResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/dto/LoansDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/dto/ResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/entity/Loans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/exception/LoansAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/mapper/LoansMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/repository/LoansRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/service/ILoansService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/service/impl/LoansServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/resources/application-qa.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/test/java/com/dreamquest/loans/LoansApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="f017b2e9-dccf-4ab1-bff6-abdf8fe679e5" name="Changes" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,6 +63,19 @@
       <option name="presentableId" value="Default" />
       <updated>1726163038061</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1726163796167</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726163796167</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
