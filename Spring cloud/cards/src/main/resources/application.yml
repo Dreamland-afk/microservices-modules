@@ -1,6 +1,13 @@
 server:
   port: 9000
+
+build:
+  version: "1.0"
+
 spring:
+  application:
+    name: cards
+
   datasource:
     url: jdbc:h2:mem:microservice_cards
     driver-class-name: org.h2.Driver
@@ -15,16 +22,9 @@ spring:
     console:
       enabled: true
       path: /h2-console
+  profiles:
+    active: prod
+  config:
+    import: "optional:configserver:http://127.0.0.1:8071"
 
-build:
-  version: "1.0"
 
-
-cards:
-  message: "Welcome to DreamBank cards related local APIs"
-  contactDetails:
-    name: "Swapnadeep Mondal - Quality Assurance"
-    email: "swapnadeep@dreambank.com"
-  onCallSupport:
-    - "(+91) 2222222222"
-    - "(+91) 2222222222"
