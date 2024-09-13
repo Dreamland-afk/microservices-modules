@@ -1,13 +1,31 @@
+#spring:
+#  application:
+#    name: config-server
+#  profiles:
+#    active: native
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          searchLocations: "classpath:/config"
+
 spring:
   application:
     name: config-server
   profiles:
-    active: native
+    active: git
   cloud:
     config:
       server:
-        native:
-          searchLocations: "classpath:/config"
+        git:
+          uri: "https://github.com/Dreamland-afk/microservice-configserver.git"
+          timeout: 5
+          search-paths:
+            - config
+          force-pull: true
+          defaultLabel: main
+          cloneOnStart: true
+
 server:
   port: 8071
 
