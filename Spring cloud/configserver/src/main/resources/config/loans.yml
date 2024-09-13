@@ -1,6 +1,9 @@
+server:
+  port: 8090
+
 spring:
   datasource:
-    url: jdbc:h2:mem:microservice
+    url: jdbc:h2:mem:microservice_loans
     driver-class-name: org.h2.Driver
     username: admin
     password:
@@ -8,24 +11,22 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
     show-sql: true
     hibernate:
-      ddl-auto: update
+      ddl-auto: none
   h2:
     console:
       enabled: true
       path: /h2-console
 
+
 build:
   version: "1.0"
 
-logging:
-  level:
-    root: info
 
-accounts:
-  message: "Welcome to DreamBank accounts related local APIs"
+loans:
+  message: "Welcome to DreamBank loans related local APIs"
   contactDetails:
-    name: "Swapnadeep Mondal - Developer"
+    name: "Swapnadeep Mondal - Production"
     email: "swapnadeep@dreambank.com"
   onCallSupport:
-    - "(+91) 1234567898"
-    - "(+91) 1234567896"
+    - "(+91) 1111111111"
+    - "(+91) 1111111111"

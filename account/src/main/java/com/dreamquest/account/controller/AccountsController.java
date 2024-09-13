@@ -238,6 +238,14 @@ public class AccountsController {
     @GetMapping("/contact-info")
     public ResponseEntity<AccountContactInfoDto> getContactInfo() {
 
+//        System.out.println(accountContactInfoDtoV2.getContactDetails());
+//        System.out.println(accountContactInfoDtoV2.getMessage());
+//        System.out.println(accountContactInfoDtoV2.getOnCallSupport());
+
+//        System.out.println(accountContactInfoDtoV2.toString());
+
+
+
         return ResponseEntity.ok(accountContactInfoDto);
     }
 }
