@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f017b2e9-dccf-4ab1-bff6-abdf8fe679e5" name="Changes" comment="Added config server properties">
+    <list default="true" id="f017b2e9-dccf-4ab1-bff6-abdf8fe679e5" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/java/com/dreamquest/configserver/ConfigserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/java/com/dreamquest/configserver/ConfigserverApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +48,6 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2lyrDXPKlCQx7MUk4UZUo405k1d" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,7 +55,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.AccountApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AccountApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.CardsApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.ConfigserverApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.LoansApplication.executor&quot;: &quot;Run&quot;,
@@ -64,20 +63,17 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/swapnadeepm/eclipse-workspace-2024/microservices-modules/Spring cloud/configserver/src/main/resources/config&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+    &quot;last_opened_file_path&quot;: &quot;I:/Code Workspace/Spring workspace/Microservice/Spring cloud&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/configserver/src/main/resources/config" />
-    </key>
-  </component>
   <component name="RunManager" selected="Application.LoansApplication">
     <configuration name="AccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dreamquest.account.AccountApplication" />
       <module name="account" />
-      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=qa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dreamquest.account.*" />
@@ -101,6 +97,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConfigserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dreamquest.configserver.ConfigserverApplication" />
+      <module name="configserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dreamquest.configserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoansApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dreamquest.loans.LoansApplication" />
       <module name="loans" />
@@ -116,8 +125,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CardsApplication" />
         <item itemvalue="Application.LoansApplication" />
+        <item itemvalue="Application.ConfigserverApplication" />
+        <item itemvalue="Application.CardsApplication" />
         <item itemvalue="Application.AccountApplication" />
       </list>
     </recent_temporary>
@@ -139,44 +149,11 @@
       <option name="project" value="LOCAL" />
       <updated>1726163796167</updated>
     </task>
-    <task id="LOCAL-00002" summary="Added config server properties">
-      <option name="closed" value="true" />
-      <created>1726213136303</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1726213136303</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added config server properties">
-      <option name="closed" value="true" />
-      <created>1726213194181</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1726213194181</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added config server properties">
-      <option name="closed" value="true" />
-      <created>1726217057257</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1726217057257</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added config server properties">
-      <option name="closed" value="true" />
-      <created>1726217640406</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1726217640406</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <MESSAGE value="Added config server properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added config server properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>

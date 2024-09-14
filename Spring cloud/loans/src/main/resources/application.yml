@@ -25,4 +25,8 @@ spring:
     import: "optional:configserver:http://127.0.0.1:8071"
 
 
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
