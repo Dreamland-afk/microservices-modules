@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f017b2e9-dccf-4ab1-bff6-abdf8fe679e5" name="Changes" comment="Updated the services">
+    <list default="true" id="f017b2e9-dccf-4ab1-bff6-abdf8fe679e5" name="Changes" comment="Updated the services added rabbitmq bus service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/dto/AccountContactInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/dto/AccountContactInfoDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/dreamquest/cards/dto/AccountContactInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/java/com/dreamquest/cards/dto/AccountContactInfoDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/dto/AccountContactInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/dto/AccountContactInfoDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,24 +48,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.AccountApplication.executor": "Run",
-    "Application.CardsApplication.executor": "Run",
-    "Application.ConfigserverApplication.executor": "Run",
-    "Application.LoansApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "I:/Code Workspace/Spring workspace/Microservice/Spring cloud",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "build.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AccountApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CardsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConfigserverApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoansApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;I:/Code Workspace/Spring workspace/Microservice/Spring cloud&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.ConfigserverApplication">
     <configuration name="AccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dreamquest.account.AccountApplication" />
@@ -172,13 +161,33 @@
       <option name="project" value="LOCAL" />
       <updated>1726316122994</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated the services added rabbitmq bus service">
+      <option name="closed" value="true" />
+      <created>1726330825676</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726330825676</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Updated the services" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the services" />
+    <MESSAGE value="Updated the services added rabbitmq bus service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the services added rabbitmq bus service" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Spring_cloud$CardsApplication.ic" NAME="CardsApplication Coverage Results" MODIFIED="1726314207831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
