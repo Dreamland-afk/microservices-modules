@@ -5,25 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f017b2e9-dccf-4ab1-bff6-abdf8fe679e5" name="Changes" comment="New commits">
-      <change afterPath="$PROJECT_DIR$/docker-compose/default/common-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose/docker-image-push.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose/qa/common-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose-v1/default/common-config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose-v1/default/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose-v1/docker-image-push.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose-v1/prod/common-config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose-v1/prod/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose-v1/qa/common-config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose-v1/qa/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/audit/AuditorAwareImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/audit/AuditorAwareImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/default/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/docker-image-push.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/qa/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +77,8 @@
     "Application.CardsApplication.executor": "Run",
     "Application.ConfigserverApplication.executor": "Run",
     "Application.LoansApplication.executor": "Run",
+    "Docker.default.accountsdb: Compose Deployment.executor": "Run",
+    "Docker.default: Compose Deployment.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -90,7 +92,7 @@
       <recent name="$PROJECT_DIR$/configserver/src/main/resources/config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CardsApplication">
+  <component name="RunManager" selected="Docker.default: Compose Deployment">
     <configuration name="AccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dreamquest.account.AccountApplication" />
       <module name="account" />
@@ -131,25 +133,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoansApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dreamquest.loans.LoansApplication" />
-      <module name="loans" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dreamquest.loans.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="default: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose/default/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="default.accountsdb: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="accountsdb" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose/default/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.default: Compose Deployment" />
+        <item itemvalue="Docker.default.accountsdb: Compose Deployment" />
         <item itemvalue="Application.CardsApplication" />
         <item itemvalue="Application.AccountApplication" />
         <item itemvalue="Application.ConfigserverApplication" />
-        <item itemvalue="Application.LoansApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726217640406</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="New commits">
+      <option name="closed" value="true" />
+      <created>1726574015013</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726574015013</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

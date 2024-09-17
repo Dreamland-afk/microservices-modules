@@ -71,7 +71,7 @@
                 <configuration>
                     <image>
                         <runImage>buildpack-deps:jammy-curl</runImage>
-                        <name> swapnadeepmondal/${project.artifactId}:s6 </name>
+                        <name> swapnadeepmondal/${project.artifactId}:s7</name>
                     </image>
                 </configuration>
             </plugin>
