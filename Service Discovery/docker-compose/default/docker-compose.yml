@@ -20,6 +20,8 @@ services:
       - 3309:3306
     environment:
       MYSQL_DATABASE: accountsdb
+    volumes:
+      - accountsDB:/var/lib/mysql/data
     extends:
       file: common-config.yml
       service: microservice-db-config
@@ -30,6 +32,8 @@ services:
       - 3308:3306
     environment:
       MYSQL_DATABASE: loansdb
+    volumes:
+      - loansDB:/var/lib/mysql/data
     extends:
       file: common-config.yml
       service: microservice-db-config
@@ -40,6 +44,8 @@ services:
       - 3307:3306
     environment:
       MYSQL_DATABASE: cardsdb
+    volumes:
+      - cardsDB:/var/lib/mysql/data
     extends:
       file: common-config.yml
       service: microservice-db-config
@@ -113,3 +119,7 @@ services:
 networks:
   dreambank:
     driver: "bridge"
+volumes:
+  accountsDB: {}
+  loansDB: {}
+  cardsDB: {}
