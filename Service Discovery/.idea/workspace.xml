@@ -5,29 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74bed717-4374-4ecf-bea9-01f631eb56f1" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/eurekaserver/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaserver/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaserver/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/java/com/dreamquest/eurekaserver/EurekaserverApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaserver/src/test/java/com/dreamquest/eurekaserver/EurekaserverApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/dto/CardsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/dto/CustomerDetailsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/dto/LoansDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/mapper/CustomerServiceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/ICustomersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/feignclients/CardsFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/feignclients/LoansFeignClients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/impl/CustomerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/AccountApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/AccountApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/controller/AccountsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/controller/AccountsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/AccountsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/impl/AccountsServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -49,13 +53,20 @@
     "Application.AccountApplication.executor": "Run",
     "Application.CardsApplication.executor": "Run",
     "Application.EurekaserverApplication.executor": "Run",
+    "Application.LoansApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/swapnadeepm/eclipse-workspace-2024/microservices-modules/Service Discovery/eurekaserver",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dreamquest.account.dto" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -92,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726755995927</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1726820853333</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726820853333</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -1,4 +1,4 @@
-package com.dreamquest.account.service;
+package com.dreamquest.account.service.impl;
 
 import com.dreamquest.account.Constants.AccountsConstants;
 import com.dreamquest.account.dto.AccountsDto;
@@ -11,11 +11,11 @@ import com.dreamquest.account.mapper.AccountsMapper;
 import com.dreamquest.account.mapper.CustomerMapper;
 import com.dreamquest.account.repository.AccountsRepo;
 import com.dreamquest.account.repository.CustomerRepo;
+import com.dreamquest.account.service.IAccountsService;
 import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
 import java.util.Optional;
 import java.util.Random;
 
