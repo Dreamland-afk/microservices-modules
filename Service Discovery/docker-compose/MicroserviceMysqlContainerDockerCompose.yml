@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  accountsdb:
+    image: mysql:8
+    container_name: accountsdb
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: accountsDB
+    ports:
+      - "3309:3306"
+    volumes:
+      - ./accountsdb_data:/var/lib/mysql
+    restart: always
+
+  cardsdb:
+    image: mysql:8
+    container_name: cardsdb
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: cardsDB
+    ports:
+      - "3307:3306"
+    volumes:
+      - ./cardsdb_data:/var/lib/mysql
+    restart: always
+
+  loansdb:
+    image: mysql:8
+    container_name: loansdb
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: loansDB
+    ports:
+      - "3308:3306"
+    volumes:
+      - ./loansdb_data:/var/lib/mysql
+    restart: always
+
+volumes:
+  accountsdb_data:
+  cardsdb_data:
+  loansdb_data:
