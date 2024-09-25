@@ -10,7 +10,7 @@ services:
     ports:
       - "3309:3306"
     volumes:
-      - ../DB_Data/accountsdb_data:/var/lib/mysql
+      - ./accountsdb_data:/var/lib/mysql
     restart: always
 
   cardsdb:
@@ -22,7 +22,7 @@ services:
     ports:
       - "3307:3306"
     volumes:
-      - ../DB_Data/cardsdb_data:/var/lib/mysql
+      - ./cardsdb_data:/var/lib/mysql
     restart: always
 
   loansdb:
@@ -34,7 +34,7 @@ services:
     ports:
       - "3308:3306"
     volumes:
-      - ../DB_Data/loansdb_data:/var/lib/mysql
+      - ./loansdb_data:/var/lib/mysql
     restart: always
 
 volumes:

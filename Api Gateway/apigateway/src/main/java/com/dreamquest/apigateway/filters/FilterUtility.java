@@ -8,7 +8,7 @@ import java.util.List;
 
 public class FilterUtility {
 
-    private static final String CORRELATION_ID = "dreambank-correlation-id";;
+    public static final String CORRELATION_ID = "dreambank-correlation-id";;
 
     public static String getCorrelationId(HttpHeaders headers) {
 
