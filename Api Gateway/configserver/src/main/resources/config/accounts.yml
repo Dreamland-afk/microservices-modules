@@ -1,0 +1,13 @@
+
+build:
+  version: "1.0"
+
+
+accounts:
+  message: "Welcome to DreamBank accounts related local APIs"
+  contactDetails:
+    name: "Swapnadeep Mondal - Developer"
+    email: "swapnadeep@dreambank.com"
+  onCallSupport:
+    - "(+91) 1234567898"
+    - "(+91) 1234567896"

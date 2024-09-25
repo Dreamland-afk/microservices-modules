@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:microservice
+    driver-class-name: org.h2.Driver
+    username: admin
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+build:
+  version: "1.0"
+
+logging:
+  level:
+    root: info
+
+accounts:
+  message: "Welcome to DreamBank accounts related local APIs"
+  contactDetails:
+    name: "Swapnadeep Mondal - Developer"
+    email: "swapnadeep@dreambank.com"
+  onCallSupport:
+    - "(+91) 1234567898"
+    - "(+91) 1234567896"

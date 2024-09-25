@@ -1,0 +1,7 @@
+
+spring:
+  application:
+    name: eurekaserver
+  config:
+    import: "configserver:http://127.0.0.1:8071"
+

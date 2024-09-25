@@ -1,0 +1,19 @@
+server:
+  port: 8072
+
+
+spring:
+  application:
+    name: apigateway
+  config:
+    import: "configserver:http://127.0.0.1:8071"
+
+logging:
+  level:
+    com:
+      dreamquest:
+        apigateway:
+          filters: debug
+
+
+
