@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffe64cec-281a-4643-81d4-3e459c95e917" name="Changes" comment="i">
-      <change afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/dreamquest/apigateway/filters/LoggingGlobalFiltersConfigurations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway/src/main/java/com/dreamquest/apigateway/filters/FilterUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/dreamquest/apigateway/filters/FilterUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/MicroserviceMysqlContainerDockerCompose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/MicroserviceMysqlContainerDockerCompose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/src/main/java/com/dreamquest/apigateway/filters/LoggingGlobalFiltersConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/dreamquest/apigateway/filters/LoggingGlobalFiltersConfigurations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727264422781</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="i">
+      <option name="closed" value="true" />
+      <created>1727265622711</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727265622711</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
