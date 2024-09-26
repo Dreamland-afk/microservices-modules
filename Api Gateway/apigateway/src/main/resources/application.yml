@@ -3,10 +3,15 @@ server:
 
 
 spring:
+  cloud:
+    circuitbreaker:
+      resilience4j:
+        enabled: true
   application:
     name: apigateway
   config:
     import: "configserver:http://127.0.0.1:8071"
+
 
 logging:
   level:
@@ -14,6 +19,17 @@ logging:
       dreamquest:
         apigateway:
           filters: debug
+    io:
+      github:
+        resilience4j: DEBUG
+
+resilience4j.circuitbreaker:
+  configs:
+    default:
+      slidingWindowSize: 10
+      waitDurationInOpenState: 10s
+      failureRateThreshold: 2
+      permittedNumberOfCallsInHalfOpenState: 2
 
 
 

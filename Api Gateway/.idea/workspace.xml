@@ -5,10 +5,107 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffe64cec-281a-4643-81d4-3e459c95e917" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/feignclients/fallbacks/CardsFeignClientFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/feignclients/fallbacks/LoansFeignClientFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/dreamquest/apigateway/fallbacks/AccountFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/#ib_16384_0.dblwr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/#innodb_redo/#ib_redo11_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/#innodb_redo/#ib_redo18_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/#innodb_redo/#ib_redo20_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/#innodb_redo/#ib_redo27_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/#innodb_redo/#ib_redo28_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/#innodb_redo/#ib_redo35_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/#innodb_redo/#ib_redo36_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/#innodb_redo/#ib_redo9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/accountsDB/accounts.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/accountsDB/customer.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/binlog.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/ib_buffer_pool" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/mysql_upgrade_history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/performance_schema/data_lock_waits_162.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/performance_schema/events_errors_su_140.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/performance_schema/events_statement_120.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/performance_schema/events_statement_126.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/performance_schema/events_statement_127.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/performance_schema/events_transacti_134.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/performance_schema/events_waits_his_85.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/performance_schema/metadata_locks_160.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/performance_schema/performance_time_98.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/performance_schema/replication_appl_171.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/performance_schema/replication_appl_172.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/performance_schema/replication_grou_164.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/performance_schema/session_status_183.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/performance_schema/status_by_host_179.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/accountsdb_data/performance_schema/threads_111.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/#innodb_redo/#ib_redo11_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/#innodb_redo/#ib_redo12_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/#innodb_redo/#ib_redo18_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/#innodb_redo/#ib_redo19_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/#innodb_redo/#ib_redo20_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/#innodb_redo/#ib_redo21_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/#innodb_redo/#ib_redo27_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/#innodb_redo/#ib_redo28_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/#innodb_redo/#ib_redo36_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/#innodb_redo/#ib_redo9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/ib_buffer_pool" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/mysql.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/mysql.sock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/performance_schema/events_statement_126.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/performance_schema/events_transacti_133.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/performance_schema/events_transacti_134.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/performance_schema/events_transacti_135.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/performance_schema/events_waits_his_84.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/performance_schema/events_waits_sum_86.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/performance_schema/global_variables_185.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/performance_schema/host_cache_95.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/performance_schema/log_status_175.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/performance_schema/memory_summary_g_154.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/performance_schema/objects_summary__97.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/performance_schema/replication_appl_171.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/performance_schema/replication_conn_163.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/performance_schema/replication_grou_164.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/performance_schema/rwlock_instances_100.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/performance_schema/socket_summary_b_149.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/performance_schema/socket_summary_b_150.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/performance_schema/status_by_host_179.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/performance_schema/users_145.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/public_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/cardsdb_data/sys/sys_config.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/#innodb_redo/#ib_redo12_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/#innodb_redo/#ib_redo13_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/#innodb_redo/#ib_redo19_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/#innodb_redo/#ib_redo21_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/#innodb_redo/#ib_redo28_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/#innodb_redo/#ib_redo37_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/#innodb_redo/#ib_redo9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/binlog.000004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/client-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/mysql.sock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/mysql/general_log_214.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/performance_schema/accounts_146.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/performance_schema/events_statement_126.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/performance_schema/events_statement_127.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/performance_schema/events_waits_sum_90.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/performance_schema/file_summary_by__94.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/performance_schema/global_variables_185.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/performance_schema/memory_summary_b_155.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/performance_schema/memory_summary_g_154.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/performance_schema/replication_appl_171.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/performance_schema/replication_appl_172.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/performance_schema/replication_grou_164.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/performance_schema/setup_meters_104.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/performance_schema/status_by_host_179.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/performance_schema/status_by_thread_180.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/performance_schema/threads_111.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/loansdb_data/server-cert.pem" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/feignclients/CardsFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/feignclients/CardsFeignClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/feignclients/LoansFeignClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/feignclients/LoansFeignClients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/src/main/java/com/dreamquest/apigateway/configurations/ApiGatewayConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/dreamquest/apigateway/configurations/ApiGatewayConfigurations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CardsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dreamquest.cards.CardsApplication" />
-      <module name="cards" />
+    <configuration name="ConfigserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dreamquest.configserver.ConfigserverApplication" />
+      <module name="configserver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dreamquest.cards.*" />
+          <option name="PATTERN" value="com.dreamquest.configserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ApigatewayApplication" />
-        <item itemvalue="Application.LoansApplication" />
-        <item itemvalue="Application.CardsApplication" />
         <item itemvalue="Application.AccountApplication" />
+        <item itemvalue="Application.ApigatewayApplication" />
         <item itemvalue="Application.EurekaserverApplication" />
+        <item itemvalue="Application.ConfigserverApplication" />
+        <item itemvalue="Application.LoansApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727265745428</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1727267757606</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727267757606</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -33,5 +33,16 @@ spring:
     port: 5672
     username: guest
     password: guest
+  openfeign:
+    circuitbreaker:
+      enabled: true
+
+resilience4j.circuitbreaker:
+  configs:
+    default:
+      slidingWindowSize: 10
+      waitDurationInOpenState: 10s
+      failureRateThreshold: 2
+      permittedNumberOfCallsInHalfOpenState: 2
 
 
