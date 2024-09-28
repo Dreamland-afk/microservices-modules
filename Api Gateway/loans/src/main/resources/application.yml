@@ -1,5 +1,6 @@
 server:
-  port: 8090
+  port: 8091
+  connection-timeout: 1s
 build:
   version: "1.0"
 spring:

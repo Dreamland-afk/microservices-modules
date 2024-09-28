@@ -4,129 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f017b2e9-dccf-4ab1-bff6-abdf8fe679e5" name="Changes" comment="New commits">
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/.idea/Spring cloud.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/.idea/shelf/Uncommitted_changes_before_Update_at_14-09-2024_16_09_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/.idea/shelf/Uncommitted_changes_before_Update_at_14-09-2024_16_09__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/.idea/shelf/Uncommitted_changes_before_Update_at_14-09-2024_21_56_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/.idea/shelf/Uncommitted_changes_before_Update_at_14-09-2024_21_56__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/AccountApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/Constants/AccountsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/audit/AuditorAwareImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/controller/AccountsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/dto/AccountContactInfoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/dto/AccountContactInfoDtoV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/dto/AccountsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/dto/CustomerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/dto/ErrorResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/dto/ResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/entity/Accounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/exception/CustomerAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/mapper/AccountsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/mapper/CustomerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/repository/AccountsRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/repository/CustomerRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/service/AccountsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/java/com/dreamquest/account/service/IAccountsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/account/src/test/java/com/dreamquest/account/AccountApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/main/java/com/dreamquest/cards/CardsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/main/java/com/dreamquest/cards/Constants/CardsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/main/java/com/dreamquest/cards/audit/AuditorAwareImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/main/java/com/dreamquest/cards/controller/CardsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/main/java/com/dreamquest/cards/dto/AccountContactInfoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/main/java/com/dreamquest/cards/dto/CardsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/main/java/com/dreamquest/cards/dto/ErrorResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/main/java/com/dreamquest/cards/dto/ResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/main/java/com/dreamquest/cards/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/main/java/com/dreamquest/cards/entity/Cards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/main/java/com/dreamquest/cards/exception/CardsAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/main/java/com/dreamquest/cards/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/main/java/com/dreamquest/cards/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/main/java/com/dreamquest/cards/mapper/CardsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/main/java/com/dreamquest/cards/repository/CardsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/main/java/com/dreamquest/cards/service/ICardsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/main/java/com/dreamquest/cards/service/impl/CardsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/cards/src/test/java/com/dreamquest/cards/CardsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/configserver/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/configserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/configserver/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/configserver/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/configserver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/configserver/src/main/java/com/dreamquest/configserver/ConfigserverApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/configserver/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/configserver/src/main/resources/config/accounts-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/configserver/src/main/resources/config/accounts-qa.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/configserver/src/main/resources/config/accounts.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/configserver/src/main/resources/config/cards-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/configserver/src/main/resources/config/cards-qa.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/configserver/src/main/resources/config/cards.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/configserver/src/main/resources/config/loans-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/configserver/src/main/resources/config/loans-qa.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/configserver/src/main/resources/config/loans.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/configserver/src/test/java/com/dreamquest/configserver/ConfigserverApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose-v1/default/common-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose-v1/default/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose-v1/docker-image-push.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose-v1/prod/common-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose-v1/prod/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose-v1/qa/common-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose-v1/qa/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/default/common-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/default/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/prod/common-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/prod/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/qa/common-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/docker-compose/qa/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/main/java/com/dreamquest/loans/Constants/LoansConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/main/java/com/dreamquest/loans/LoansApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/main/java/com/dreamquest/loans/audit/AuditorAwareImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/main/java/com/dreamquest/loans/controller/LoansController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/main/java/com/dreamquest/loans/dto/AccountContactInfoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/main/java/com/dreamquest/loans/dto/ErrorResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/main/java/com/dreamquest/loans/dto/LoansDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/main/java/com/dreamquest/loans/dto/ResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/main/java/com/dreamquest/loans/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/main/java/com/dreamquest/loans/entity/Loans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/main/java/com/dreamquest/loans/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/main/java/com/dreamquest/loans/exception/LoansAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/main/java/com/dreamquest/loans/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/main/java/com/dreamquest/loans/mapper/LoansMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/main/java/com/dreamquest/loans/repository/LoansRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/main/java/com/dreamquest/loans/service/ILoansService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/main/java/com/dreamquest/loans/service/impl/LoansServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Service Discovery/loans/src/test/java/com/dreamquest/loans/LoansApplicationTests.java" afterDir="false" />
+    <list default="true" id="f017b2e9-dccf-4ab1-bff6-abdf8fe679e5" name="Changes" comment="Updated the services added rabbitmq bus service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,44 +44,32 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2lyrDXPKlCQx7MUk4UZUo405k1d" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.AccountApplication.executor": "Run",
     "Application.CardsApplication.executor": "Run",
     "Application.ConfigserverApplication.executor": "Run",
     "Application.LoansApplication.executor": "Run",
-    "Docker.default.accountsdb: Compose Deployment.executor": "Run",
-    "Docker.default: Compose Deployment.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/swapnadeepm/eclipse-workspace-2024/microservices-modules/Service Discovery",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "I:/Code Workspace/Spring workspace/Microservice/Service Discovery",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "advanced.settings"
+    "settings.editor.selected.configurable": "build.tools"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/configserver/src/main/resources/config" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Docker.default: Compose Deployment">
+  <component name="RunManager" selected="Application.ConfigserverApplication">
     <configuration name="AccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dreamquest.account.AccountApplication" />
       <module name="account" />
-      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=qa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dreamquest.account.*" />
@@ -240,40 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml">
-        <settings />
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="default: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="docker-compose/default/docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="default.accountsdb: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="accountsdb" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose/default/docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
+    <configuration name="LoansApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dreamquest.loans.LoansApplication" />
+      <module name="loans" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dreamquest.loans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.default: Compose Deployment" />
-        <item itemvalue="Docker.default.accountsdb: Compose Deployment" />
-        <item itemvalue="Application.CardsApplication" />
-        <item itemvalue="Application.AccountApplication" />
         <item itemvalue="Application.ConfigserverApplication" />
+        <item itemvalue="Application.AccountApplication" />
+        <item itemvalue="Application.CardsApplication" />
+        <item itemvalue="Application.LoansApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -294,45 +145,29 @@
       <option name="project" value="LOCAL" />
       <updated>1726163796167</updated>
     </task>
-    <task id="LOCAL-00002" summary="Added config server properties">
+    <task id="LOCAL-00002" summary="Updated the services">
       <option name="closed" value="true" />
-      <created>1726213136303</created>
+      <created>1726316085971</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1726213136303</updated>
+      <updated>1726316085971</updated>
     </task>
-    <task id="LOCAL-00003" summary="Added config server properties">
+    <task id="LOCAL-00003" summary="Updated the services">
       <option name="closed" value="true" />
-      <created>1726213194181</created>
+      <created>1726316122994</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1726213194181</updated>
+      <updated>1726316122994</updated>
     </task>
-    <task id="LOCAL-00004" summary="Added config server properties">
+    <task id="LOCAL-00004" summary="Updated the services added rabbitmq bus service">
       <option name="closed" value="true" />
-      <created>1726217057257</created>
+      <created>1726330825676</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1726217057257</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added config server properties">
-      <option name="closed" value="true" />
-      <created>1726217640406</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1726217640406</updated>
-    </task>
-    <task id="LOCAL-00006" summary="New commits">
-      <option name="closed" value="true" />
-      <created>1726574015013</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1726574015013</updated>
+      <updated>1726330825676</updated>
     </task>
     <task id="LOCAL-00007" summary="New commits">
       <option name="closed" value="true" />
@@ -358,14 +193,43 @@
       <option name="project" value="LOCAL" />
       <updated>1726580832926</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00005" summary="Updated the services added rabbitmq bus service">
+      <option name="closed" value="true" />
+      <created>1726335285528</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726335285528</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
-    <MESSAGE value="Added config server properties" />
-    <MESSAGE value="New commits" />
-    <option name="LAST_COMMIT_MESSAGE" value="New commits" />
+    <MESSAGE value="Updated the services" />
+    <MESSAGE value="Updated the services added rabbitmq bus service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the services added rabbitmq bus service" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Spring_cloud$CardsApplication.ic" NAME="CardsApplication Coverage Results" MODIFIED="1726314207831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.dreamquest.cards.*</FILTER>
+    </SUITE>
   </component>
 </project>

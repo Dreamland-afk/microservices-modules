@@ -2,7 +2,6 @@ package com.dreamquest.account.service.feignclients;
 
 
 import com.dreamquest.account.dto.CardsDto;
-import com.dreamquest.account.service.feignclients.fallbacks.CardsFeignClientFallback;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -4,6 +4,10 @@ server:
 
 spring:
   cloud:
+    gateway:
+      httpclient:
+        connect-timeout: 1000
+        response-timeout: 5s
     circuitbreaker:
       resilience4j:
         enabled: true
@@ -28,7 +32,7 @@ resilience4j.circuitbreaker:
     default:
       slidingWindowSize: 10
       waitDurationInOpenState: 10s
-      failureRateThreshold: 2
+      failureRateThreshold: 50
       permittedNumberOfCallsInHalfOpenState: 2
 
 

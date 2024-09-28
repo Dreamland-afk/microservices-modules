@@ -1,7 +1,6 @@
-package com.dreamquest.account.service.feignclients.fallbacks;
+package com.dreamquest.account.service.feignclients;
 
 import com.dreamquest.account.dto.CardsDto;
-import com.dreamquest.account.service.feignclients.CardsFeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 
