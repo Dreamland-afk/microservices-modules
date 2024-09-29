@@ -11,9 +11,11 @@ import reactor.core.publisher.Mono;
 public class AccountFallback {
 
     @RequestMapping("/fallback")
-    public Mono<String> accountFallback( Throwable throwable) {
+    public Mono<String> accountFallback( Throwable throwable) throws Throwable {
 
-        System.out.println(throwable.getMessage());
-        return Mono.just("Circuit break executed. Please give it a try after some time.");
+        throw throwable;
+
+//        System.out.println(throwable.getLocalizedMessage());
+//        return Mono.just("Circuit break executed. Please give it a try after some time." + throwable.getMessage());
     }
 }

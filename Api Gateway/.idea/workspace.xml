@@ -5,132 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffe64cec-281a-4643-81d4-3e459c95e917" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/#innodb_redo/#ib_redo11_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/#innodb_redo/#ib_redo12_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/#innodb_redo/#ib_redo15_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/#innodb_redo/#ib_redo18_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/#innodb_redo/#ib_redo19_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/#innodb_redo/#ib_redo20_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/#innodb_redo/#ib_redo27_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/#innodb_redo/#ib_redo32_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/#innodb_redo/#ib_redo36_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/#innodb_redo/#ib_redo40_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/#innodb_redo/#ib_redo9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/#innodb_temp/temp_1.ibt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/#innodb_temp/temp_4.ibt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/#innodb_temp/temp_7.ibt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/#innodb_temp/temp_8.ibt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/auto.cnf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/ca.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/ib_buffer_pool" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/ibtmp1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/mysql.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/accounts_146.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/data_locks_161.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/events_errors_su_140.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/events_errors_su_144.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/events_stages_cu_112.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/events_stages_su_117.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/events_statement_123.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/events_statement_127.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/events_transacti_135.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/events_transacti_139.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/events_waits_cur_83.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/global_status_182.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/memory_summary_b_155.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/memory_summary_b_158.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/prepared_stateme_176.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/setup_consumers_102.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/setup_metrics_105.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/socket_instances_148.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/status_by_host_179.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/table_handles_159.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/accountsdb_data/performance_schema/variables_by_thr_184.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/#innodb_redo/#ib_redo11_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/#innodb_redo/#ib_redo23_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/#innodb_redo/#ib_redo27_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/#innodb_redo/#ib_redo31_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/#innodb_redo/#ib_redo32_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/#innodb_redo/#ib_redo35_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/#innodb_redo/#ib_redo39_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/#innodb_redo/#ib_redo40_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/#innodb_temp/temp_6.ibt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/#innodb_temp/temp_9.ibt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/mysql.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/mysql/slow_log.CSM" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/mysql/slow_log_215.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/data_locks_161.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/events_errors_su_143.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/events_statement_122.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/events_statement_123.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/events_statement_126.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/events_statement_131.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/events_transacti_134.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/events_transacti_135.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/events_transacti_138.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/events_waits_his_85.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/events_waits_sum_87.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/file_summary_by__93.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/global_variables_185.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/hosts_147.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/memory_summary_b_158.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/memory_summary_g_154.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/replication_appl_172.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/replication_conn_163.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/replication_grou_164.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/setup_consumers_102.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/setup_metrics_105.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/status_by_host_179.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/performance_schema/table_handles_159.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/private_key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/cardsdb_data/undo_001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/#ib_16384_0.dblwr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/#innodb_redo/#ib_redo15_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/#innodb_redo/#ib_redo19_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/#innodb_redo/#ib_redo20_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/#innodb_redo/#ib_redo24_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/#innodb_redo/#ib_redo27_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/#innodb_redo/#ib_redo39_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/#innodb_temp/temp_1.ibt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/#innodb_temp/temp_8.ibt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/client-key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/mysql.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/mysql/general_log.CSM" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/mysql/slow_log_215.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/performance_schema/accounts_146.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/performance_schema/cond_instances_81.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/performance_schema/events_errors_su_143.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/performance_schema/events_stages_su_117.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/performance_schema/events_statement_123.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/performance_schema/events_transacti_135.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/performance_schema/events_waits_his_85.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/performance_schema/events_waits_sum_87.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/performance_schema/file_summary_by__93.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/performance_schema/log_status_175.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/performance_schema/memory_summary_b_158.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/performance_schema/memory_summary_g_154.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/performance_schema/mutex_instances_96.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/performance_schema/replication_appl_172.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/performance_schema/session_status_183.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/performance_schema/setup_consumers_102.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/performance_schema/setup_objects_106.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/performance_schema/variables_by_thr_184.sdi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/public_key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/undo_001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB_Data/loansdb_data/undo_002" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/feignclients/CardsFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/feignclients/CardsFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/feignclients/LoansFeignClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/feignclients/LoansFeignClients.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/feignclients/fallbacks/CardsFeignClientFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/feignclients/CardsFeignClientFallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/feignclients/fallbacks/LoansFeignClientFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/feignclients/LoansFeignClientFallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/dreamquest/account/service/impl/CustomerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apigateway/src/main/java/com/dreamquest/apigateway/configurations/ApiGatewayConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/dreamquest/apigateway/configurations/ApiGatewayConfigurations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/src/main/java/com/dreamquest/apigateway/fallbacks/AccountFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/dreamquest/apigateway/fallbacks/AccountFallback.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apigateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/controller/LoansController.java" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/java/com/dreamquest/loans/controller/LoansController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Service Discovery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Service Discovery/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring cloud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring cloud/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,13 +73,14 @@
     "Application.LoansApplication.executor": "Run",
     "Docker.docker-compose/MicroserviceMysqlContainerDockerCompose.yml: Compose Deployment.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "I:/Code Workspace/Spring workspace/Microservice/Api Gateway",
     "settings.editor.selected.configurable": "preferences.editor.code.editing"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LoansApplication">
+  <component name="RunManager" selected="Application.AccountApplication">
     <configuration name="AccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dreamquest.account.AccountApplication" />
       <module name="account" />
@@ -271,9 +153,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ApigatewayApplication" />
+        <item itemvalue="Application.AccountApplication" />
         <item itemvalue="Application.LoansApplication" />
         <item itemvalue="Application.CardsApplication" />
-        <item itemvalue="Application.AccountApplication" />
         <item itemvalue="Application.EurekaserverApplication" />
       </list>
     </recent_temporary>
@@ -338,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727267757606</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1727507945110</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727507945111</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -3,16 +3,16 @@ server:
 
 
 spring:
+  application:
+    name: apigateway
   cloud:
     gateway:
       httpclient:
-        connect-timeout: 1000
-        response-timeout: 5s
-    circuitbreaker:
-      resilience4j:
-        enabled: true
-  application:
-    name: apigateway
+        connect-timeout: 5000  # Connection timeout in milliseconds
+        response-timeout: 8s   # Response timeout in seconds
+      circuitbreaker:
+        resilience4j:
+          enabled: true          # Enable Resilience4j circuit breaker
   config:
     import: "configserver:http://127.0.0.1:8071"
 
@@ -23,17 +23,24 @@ logging:
       dreamquest:
         apigateway:
           filters: debug
-    io:
-      github:
-        resilience4j: DEBUG
+    level:
+      io.github.resilience4j: DEBUG
+      org.springframework.cloud.gateway: DEBUG
 
-resilience4j.circuitbreaker:
+resilience4j:
+  circuitbreaker:
+    configs:
+      default:
+        slidingWindowSize: 10
+        waitDurationInOpenState: 10s
+        failureRateThreshold: 50
+        permittedNumberOfCallsInHalfOpenState: 2
+        slowCallDurationThreshold: 8s
+
+resilience4j.timelimiter:
   configs:
     default:
-      slidingWindowSize: 10
-      waitDurationInOpenState: 10s
-      failureRateThreshold: 50
-      permittedNumberOfCallsInHalfOpenState: 2
-
+      cancelRunningFuture: false
+      timeoutDuration: 15s
 
 

@@ -1,6 +1,5 @@
 server:
   port: 8080
-  connection-timeout: 2s
 
 build:
   version: "1.0"
@@ -8,6 +7,12 @@ build:
 spring:
   cloud:
     openfeign:
+      client:
+        config:
+          default:
+            connectTimeout: 1000
+            readTimeout: 6000
+            loggerLevel: basic
       circuitbreaker:
         enabled: true
   application:
@@ -47,4 +52,9 @@ resilience4j.circuitbreaker:
       failureRateThreshold: 50
       permittedNumberOfCallsInHalfOpenState: 2
 
+resilience4j.timelimiter:
+  configs:
+    default:
+      cancelRunningFuture: false
+      timeoutDuration: 7s
 
