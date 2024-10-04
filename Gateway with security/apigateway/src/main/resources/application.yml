@@ -15,6 +15,12 @@ spring:
           enabled: true          # Enable Resilience4j circuit breaker
   config:
     import: "configserver:http://127.0.0.1:8071"
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:7080/realms/master
+          jwk-set-uri: http://localhost:7080/realms/master/protocol/openid-connect/certs
 
 
 logging:
