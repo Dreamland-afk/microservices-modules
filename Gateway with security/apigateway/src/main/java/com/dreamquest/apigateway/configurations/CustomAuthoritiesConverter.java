@@ -33,8 +33,9 @@ public class CustomAuthoritiesConverter implements Converter<Jwt, Collection<Gra
 
        List<String> roles = (List<String>) claims.get("roles");
 
-        Collection<GrantedAuthority> collect = roles.stream().map(s -> "ROLE_" + s).map(SimpleGrantedAuthority::new).collect(Collectors.toList());
+//        Collection<GrantedAuthority> collect = roles.stream().map(s -> "ROLE_" + s).map(SimpleGrantedAuthority::new).collect(Collectors.toList());
 
+        Collection<GrantedAuthority> collect = roles.stream().map(SimpleGrantedAuthority::new).collect(Collectors.toList());
         return collect;
 
 
