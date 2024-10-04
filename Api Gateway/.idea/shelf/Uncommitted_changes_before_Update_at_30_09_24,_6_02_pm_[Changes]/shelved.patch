@@ -1,0 +1,17 @@
+Index: account/src/main/java/com/dreamquest/account/service/feignclients/fallbacks/CardsFeignClientFallback.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.dreamquest.account.service.feignclients.fallbacks;\n\nimport com.dreamquest.account.dto.CardsDto;\nimport com.dreamquest.account.service.feignclients.CardsFeignClient;\nimport org.springframework.http.ResponseEntity;\nimport org.springframework.stereotype.Component;\n\n@Component\npublic class CardsFeignClientFallback implements CardsFeignClient {\n\n    @Override\n    public ResponseEntity<CardsDto> fetchCard(String mobileNumber, String correlationHeader) {\n        return null;\n    }\n}\n
+===================================================================
+diff --git a/account/src/main/java/com/dreamquest/account/service/feignclients/fallbacks/CardsFeignClientFallback.java b/account/src/main/java/com/dreamquest/account/service/feignclients/fallbacks/CardsFeignClientFallback.java
+--- a/account/src/main/java/com/dreamquest/account/service/feignclients/fallbacks/CardsFeignClientFallback.java	
++++ b/account/src/main/java/com/dreamquest/account/service/feignclients/fallbacks/CardsFeignClientFallback.java	
+@@ -10,6 +10,8 @@
+ 
+     @Override
+     public ResponseEntity<CardsDto> fetchCard(String mobileNumber, String correlationHeader) {
++        System.out.println("Falling back help from card fallback");
++
+         return null;
+     }
+ }

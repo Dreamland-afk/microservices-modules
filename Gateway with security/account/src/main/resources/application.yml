@@ -1,0 +1,60 @@
+server:
+  port: 8080
+
+build:
+  version: "1.0"
+
+spring:
+  cloud:
+    openfeign:
+      client:
+        config:
+          default:
+            connectTimeout: 1000
+            readTimeout: 6000
+            loggerLevel: basic
+      circuitbreaker:
+        enabled: true
+  application:
+    name: accounts
+  datasource:
+    url: jdbc:mysql://localhost:3309/accountsDB
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  sql:
+    init:
+      mode: always
+  jpa:
+    #    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+  #    hibernate:
+  #      ddl-auto: update
+  #  h2:
+  #    console:
+  #      enabled: true
+  #      path: /h2-console
+  profiles:
+    active: prod
+  config:
+    import: "configserver:http://127.0.0.1:8071"
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+
+resilience4j.circuitbreaker:
+  configs:
+    default:
+      slidingWindowSize: 10
+      waitDurationInOpenState: 10s
+      failureRateThreshold: 50
+      permittedNumberOfCallsInHalfOpenState: 2
+
+resilience4j.timelimiter:
+  configs:
+    default:
+      cancelRunningFuture: false
+      timeoutDuration: 7s
+
