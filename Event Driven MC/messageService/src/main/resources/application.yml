@@ -9,7 +9,18 @@ spring:
     name: messageservice
   cloud:
     function:
-      definition: email|abc
+      definition: email|sms
+    stream:
+      bindings:
+        emailsms-in-0:
+          destination: bank-microservice
+          group: messagenotification
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+
 
   profiles:
     active: prod

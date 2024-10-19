@@ -1,6 +1,7 @@
 package com.dreamquest.account.service.impl;
 
 import com.dreamquest.account.Constants.AccountsConstants;
+import com.dreamquest.account.dto.AccountMsgDto;
 import com.dreamquest.account.dto.AccountsDto;
 import com.dreamquest.account.dto.CustomerDto;
 import com.dreamquest.account.entity.Accounts;
@@ -14,6 +15,8 @@ import com.dreamquest.account.repository.CustomerRepo;
 import com.dreamquest.account.service.IAccountsService;
 import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.stream.function.StreamBridge;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -26,6 +29,10 @@ public class AccountsServiceImpl implements IAccountsService {
     AccountsRepo accountsRepo;
     CustomerRepo customerRepo;
 
+    private  AccountMsgDto accountMsgDto;
+
+    private StreamBridge streamBridge;
+
     @Override
     public void createAccount(CustomerDto customerDto) {
 
@@ -36,7 +43,16 @@ public class AccountsServiceImpl implements IAccountsService {
             throw new CustomerAlreadyExistsException("Customer already registered with given mobile number " + customerDto.getMobileNumber());
         customer.setCreatedBy("Anonymous");
         customer = customerRepo.save(customer);
-        accountsRepo.save(createNewAccount(customer));
+        Accounts newAccount = createNewAccount(customer);
+        accountsRepo.save(newAccount);
+
+        accountMsgDto.setAccountNumber(newAccount.getAccountNumber());
+        accountMsgDto.setName(customer.getName());
+        accountMsgDto.setEmail(customer.getEmail());
+        accountMsgDto.setMobileNumber(customer.getMobileNumber());
+
+        boolean send = streamBridge.send("emailsms-out-0", accountMsgDto);
+        System.out.println("Message sent to broker succesfully: " + send);
 
     }
 
