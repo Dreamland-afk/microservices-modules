@@ -9,7 +9,7 @@ spring:
     name: messageservice
   cloud:
     function:
-      defination: email|abc
+      definition: email|abc
 
   profiles:
     active: prod
